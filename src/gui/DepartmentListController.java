@@ -59,7 +59,7 @@ public class DepartmentListController implements Initializable{
 		
 	}
 	
-	public void updateTableList() {
+	public void updateTableView() {
 		if(service == null) {
 			throw new IllegalStateException("Service was null");
 		}
